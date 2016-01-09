@@ -32,7 +32,7 @@ func NewDataset(context *FlowContext, t reflect.Type) *Dataset {
 	return d
 }
 
-// key value can not use reflect.Value which can not be serailize/deserialze
+// key value can not use reflect.Value which can not be serialize/deserialize
 type KeyValue struct {
 	Key   interface{}
 	Value interface{}

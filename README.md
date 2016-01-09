@@ -1,3 +1,4 @@
+<strong>This is a FORK of https://github.com/chrislusf/glow</strong>
 # glow
 
 [![GoDoc](https://godoc.org/github.com/chrislusf/glow?status.svg)](https://godoc.org/github.com/chrislusf/glow)

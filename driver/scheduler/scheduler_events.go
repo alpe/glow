@@ -30,7 +30,7 @@ type ReleaseTaskGroupInputs struct {
 }
 
 /*
-resources are leased to driver, expires every X miniute unless renewed.
+resources are leased to driver, expires every X minute unless renewed.
 1. request resource
 2. release resource
 */
