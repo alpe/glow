@@ -1,6 +1,6 @@
 agent1:
   read_only: true
-  image: glow
+  image: chrislusf/glow
   command: agent --dir /data --max.executors=2 --memory=768 --master="master:8930" --port 8931
   expose:
     - "8931"
@@ -12,7 +12,7 @@ agent1:
 
 agent2:
   read_only: true
-  image: glow
+  image: chrislusf/glow
   command: agent --dir /data --max.executors=2 --memory=768 --master="master:8930" --port 8932
   expose:
     - "8932"
@@ -24,7 +24,7 @@ agent2:
 
 master:
   read_only: true
-  image: glow
+  image: chrislusf/glow
   command: master --address 0.0.0.0:8930
   expose:
     - "8930"
